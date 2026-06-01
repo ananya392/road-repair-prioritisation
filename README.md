@@ -6,7 +6,7 @@ Overview
 
 Road maintenance agencies often face budget and resource constraints, making it difficult to repair every damaged road immediately. This project provides a prioritisation framework that evaluates road conditions and assigns priority scores to help decision-makers focus on the most critical repairs first.
 
-##The system can be used to:
+#The system can be used to:
 
 -Analyze road condition datasets
 -Identify damaged road segments
@@ -15,7 +15,7 @@ Road maintenance agencies often face budget and resource constraints, making it 
 -Enable data-driven infrastructure management
 
 
-##Features
+#Features
 
 -Data preprocessing and cleaning
 -Road condition analysis
@@ -25,7 +25,7 @@ Road maintenance agencies often face budget and resource constraints, making it 
 -Machine learning-based prediction (if applicable)
 
 
-##Tech Stack
+#Tech Stack
 
 -Python
 -Pandas

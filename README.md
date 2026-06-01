@@ -21,7 +21,7 @@ Road maintenance agencies often face budget and resource constraints, making it 
 * Priority score calculation
 * Ranking of road segments based on urgency
 * Data visualization and insights
-* Machine learning-based prediction (if applicable)
+* RL-based decision making
 
 ## Tech Stack
 

@@ -1,10 +1,17 @@
 # road-repair-prioritisation using reinforcement learning
 
-A machine learning and data-driven road maintenance prioritisation system that helps identify and rank road segments requiring urgent repair. The project aims to support smarter infrastructure planning by analyzing road condition data and generating repair priorities based on multiple factors.
+A reinforcement learning–based decision support system for prioritising road maintenance activities. This project simulates road deterioration and uses a Deep Q-Network (DQN) agent to learn optimal repair strategies under resource constraints. The goal is to help infrastructure authorities identify critical road segments and allocate maintenance resources more effectively.
 
 Overview
 
-Road maintenance agencies often face budget and resource constraints, making it difficult to repair every damaged road immediately. This project provides a prioritisation framework that evaluates road conditions and assigns priority scores to help decision-makers focus on the most critical repairs first.
+Road networks continuously deteriorate due to traffic load, environmental conditions, and aging infrastructure. Since maintenance budgets are limited, repairing every damaged road immediately is often impossible.This project addresses the problem by modeling road maintenance as a reinforcement learning task where an intelligent agent learns:
+
+* Which road segments should be repaired first
+* How to maximize overall road network quality
+* How to reduce long-term deterioration costs
+* How to make efficient maintenance decisions under limited resources
+
+The system combines road deterioration modeling with Deep Reinforcement Learning to generate repair prioritisation strategies.
 
 ## The system can be used to:
 
@@ -14,20 +21,29 @@ Road maintenance agencies often face budget and resource constraints, making it 
 * Support efficient allocation of maintenance resources
 * Enable data-driven infrastructure management
 
+## Objectives
+
+* Simulate road condition deterioration over time
+* Model maintenance decision-making as a reinforcement learning problem
+* Train a Deep Q-Network (DQN) agent to learn repair policies
+* Evaluate maintenance strategies based on accumulated rewards
+* Support data-driven infrastructure management
+
 ## Features
 
-* Data preprocessing and cleaning
-* Road condition analysis
-* Priority score calculation
-* Ranking of road segments based on urgency
-* Data visualization and insights
-* RL-based decision making
+* Road deterioration simulation
+* Custom reinforcement learning environment
+* Deep Q-Network (DQN) implementation
+* Agent training and evaluation pipeline
+* Road repair prioritisation framework
+* Performance monitoring and analysis
+* Scalable decision-making approach for infrastructure management
 
-## Tech Stack
+## Tech stack
 
 * Python
+* Numpy
 * Pandas
-* NumPy
-* Scikit-learn
 * Matplotlib
-* Jupyter Notebook
+* Scikit-learn
+* Deep Reinforcement Learning (DQN)
